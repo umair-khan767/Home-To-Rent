@@ -8,18 +8,46 @@ body {
   font-family: "poppins", sans-serif;
   color: #101010;
   background-color: #f1f1f1;
+  
+}
+.navbar{
+
+    background-color: transparent !important;
 }
 .section-header{
-    background: url(images/bg\ pic.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90vh;
+  position: relative;
+    height: 100vh;
     width: 100%;
+}
+
+.section-header::before{
+    background: url(images/banner-3-scaled-1.jpg) no-repeat center center/cover; 
+    /* background-color: #000000; */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+.section-header::after{
+    background-color: #000000;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+
 }
 .section-header h1{
     font-size: 60px;
     font-weight: 700;
-    margin-top: 16%;
+    margin-top: 20%;
 }
 
 .selector i{
@@ -36,20 +64,28 @@ body {
 
 .selector{
     background-color: white;
+    border-radius: 6px;
+    justify-content: space-evenly;
 }
 
 .selector button{
-    margin-left: 50px;
-    margin-top: 8px;
-    padding: 8px 20px 8px 20px;
+    margin-left: 40px;
+    /* margin-top: 8px; */
+    padding: 12px 30px 12px 30px;
     color: white;
     background-color: rgb(70, 70, 250);
     border: 1px solid rgb(70, 70, 250);
+    border-radius: 5px;
+}
+
+.form-select{
+    border: none;
 }
 
 /* ############################################################## */
-.detail{
-    /* margin-top: 25px; */
+.places h3{
+    font-weight: 600;
+    font-size: 32px;
 }
 
 .places img{
@@ -63,13 +99,17 @@ body {
 background-color: white;
 border-radius: 10px;
 }
+.places .detail span{
+font-size: 14px;
+
+}
 
 .places .detail .price{
-    margin-top: 0px;
-    /* position: absolute; */
-    float: inline-end;
-    margin-left: 20px;
-    margin-bottom: 10%;
+    margin-top: -20px;
+    position: absolute;
+    margin-left: 9%;
+    position: relative;
+    font-weight: 600;
 }
 .places h4{
     font-size: 16px;
@@ -81,10 +121,10 @@ border-radius: 10px;
 }
 
 .places .fa-solid{
-    font-size: 12px;
+    font-size: 9px;
     border-radius: 100px;
-    padding: 7px;
-    margin-left: 15px;
+    padding: 5px;
+    margin-left: 29px;
     margin-right: 8px;
 }
 .detail  button{
@@ -97,7 +137,8 @@ border-radius: 10px;
 }
 
 .buttons button{
-    border: 2px solid #43cc8c;
+    background-color: #bdf8dc;
+    border: 2px solid #5ce8a6;
     border-radius: 5px;
     color: #0d6efd;
     margin-top: 40px;
