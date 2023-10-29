@@ -177,5 +177,58 @@ font-size: 14px;
  .location .detail img:hover{
     transform: scale(1.1);
  }
+
+ .location h4{
+    font-size: 30px;
+    font-weight: 700;
+ }
     
 /* Location section styling end  */
+
+.work h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.work .border-data{
+    border: 1px solid #0d6efd;
+    padding: 0px 50px 50px 50px;
+    border-bottom-left-radius: 90px;
+    border-top-right-radius: 70px;
+}
+
+.work .border-data i{
+    font-size: 50px;
+    color: #0d6efd;
+    margin-top: -27px;
+
+}
+
+.work .border-data h6{
+    inset: 10px;
+    font-size: 30px;
+    margin-left: 90%;
+    border-bottom: 1px solid #0d6efd;
+    border-left: 1px solid #0d6efd;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 100%;
+    padding: 20px 41px 41px 34px;
+    background-color: #e8ecf2;
+
+   
+}
+.work .border-data h4{
+ margin-top: 25px;
+ font-weight: 600;
+}
+
+.work .border-data p{
+ margin-top: 20px;
+ font-size: 13px;
+}
+
+/* ############################## */
+
+.places{
+    background: url(images/);
+}
