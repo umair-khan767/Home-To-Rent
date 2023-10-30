@@ -185,6 +185,8 @@ font-size: 14px;
     
 /* Location section styling end  */
 
+/* work  section styling start  */
+
 .work h3{
     font-size: 30px;
     font-weight: 600;
@@ -227,8 +229,157 @@ font-size: 14px;
  font-size: 13px;
 }
 
-/* ############################## */
+/* work  section styling end  */
 
-.places{
-    background: url(images/);
+/* places section styling start  */
+
+.places-sec{
+    background: url(images/places\ bg.png) no-repeat;
 }
+
+.places-sec h2{
+    margin-top: 80px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.places-sec p{
+    color: white;
+}
+.places-sec button{
+    margin-left: 40%;
+    padding: 20px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.places-sec button:hover{
+    background-color: rgb(7, 7, 77);
+    border: rgb(7, 7, 77);
+    color: #fff;
+}
+
+/* places section styling end  */
+
+/* News section styling start  */
+.news .cards{
+    box-shadow: rgba(0, 0, 0, 0.7);
+    background-color: #fff;
+    border: 2px solid rgb(234, 231, 231);
+    border-radius: 10px ;
+    box-shadow:  10px rgb(91, 91, 91);
+}
+
+.news .cards img{
+    width: 350px;
+    height: auto;
+   border-radius: 8px;
+   background-size: cover;
+    padding: 5px;
+}
+
+.news .cards i{
+    padding: 20px 20px;
+    color: #848587;
+    font-size: 20px;
+}
+
+.news .cards span{
+    color: #848587;
+}
+
+.news .cards h4{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px 20px;
+}
+.news .cards h4:hover{
+    color: #0d6efd;
+}
+.news .cards p{
+    font-size: 14px;
+    color: #8d8e90;
+    padding: 5px 20px 0px 20px;
+}
+
+.news .cards h6{
+    font-weight: 100;
+    font-style: italic;
+    padding: 5px 20px;
+}
+
+
+.news .cards h6 i{
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+/* News section styling end  */
+
+.egent .agent-data{
+    background-color: #0d6efd;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.egent .agent-data span{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 0%;
+}
+
+.egent .agent-data button{
+    padding: 20px 40px;
+    border-radius: 100px;
+    border: 5px solid #649ff7;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6f6f70;
+    background-color: #fff;
+}
+
+.egent .agent-data h2{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+/* Footer section styling start  */
+
+.footer .row{
+    background-color: rgb(2, 2, 59);
+}
+
+.footer h6{
+    font-size: 20px;
+}
+.footer li{
+    list-style: none;
+    float: start;
+    font-size: 14px;
+    line-height: 2.5;
+}
+
+.footer li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer ul{
+    padding: 0%;
+}
+
+.footer button{
+    padding: 2px 19px 6px 6px;
+    background-color: rgb(2, 2, 59);
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    
+}
+
+.footer button i{
+    padding: 10px;
+    font-size: 50px;
+}
+/* Footer section styling end  */
