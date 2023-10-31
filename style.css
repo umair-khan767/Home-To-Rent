@@ -10,15 +10,30 @@ body {
   background-color: #f1f1f1;
   
 }
+.navbar-brand{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand img{
+    width: 55px;
+    height: auto;
+   margin-bottom: 10px;
+}
 .navbar{
-
     background-color: transparent !important;
 }
+
+.nav-link:hover{
+    color: #0d6efd;
+}
+
 .section-header{
   position: relative;
     height: 100vh;
     width: 100%;
 }
+
 
 .section-header::before{
     background: url(images/banner-3-scaled-1.jpg) no-repeat center center/cover; 
@@ -81,6 +96,28 @@ body {
 .form-select{
     border: none;
 }
+.nav-item {
+    list-style: none;
+}
+.nav-item i{
+    color: #0cf186;
+    font-size: 18px;
+}
+
+.collapse button{
+    background-color: darkblue;
+    color: #fff;
+    border: #fff;
+    padding: 10px;
+    font-weight: 600;
+}
+.collapse button:hover{
+    background-color: darkblue;
+    color: #fff;
+    border: #fff;
+}
+
+
 
 /* ############################################################## */
 .places h3{
@@ -347,39 +384,71 @@ font-size: 14px;
 /* Footer section styling start  */
 
 .footer .row{
-    background-color: rgb(2, 2, 59);
+    background-color: #252c41;
 }
 
-.footer h6{
-    font-size: 20px;
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.footer li{
-    list-style: none;
-    float: start;
-    font-size: 14px;
-    line-height: 2.5;
+.main-div h6{
+font-size: 16px;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
 }
 
-.footer li a{
+.main-div ul{
+    padding-left: 0%;
+    margin-top: 20px;
+}
+
+.main-div li a{
     text-decoration: none;
     color: #fff;
+    font-size: 14px;
 }
 
-.footer ul{
-    padding: 0%;
+.main-div li{
+    list-style: none;
+    line-height: 2.5;
+   
 }
-
-.footer button{
-    padding: 2px 19px 6px 6px;
-    background-color: rgb(2, 2, 59);
+.main-div button{
+    padding: 15px 60px 15px 15px;
+    background-color: #252c41;
+    color: #fff;
     font-size: 20px;
     font-weight: 500;
-    color: white;
-    
+    text-align: center;
+    border: 1px solid #8d8e90;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
-.footer button i{
-    padding: 10px;
-    font-size: 50px;
+.main-div button i{
+    font-size: 40px;
+    padding-right: 15px;
+    color: #0d6efd;
+}
+
+.main-div button span{
+    font-size: 14px;
+    color: #848587 ;
 }
 /* Footer section styling end  */
+
+footer{
+    background-color: #1b2132;
+    color: #fff;
+}
+footer p{
+    font-size: 14px;
+    /* padding: 10px; */
+}
+footer i{
+    font-size: 20px;
+    padding: 0px 10px;
+    float: right;
+}
